@@ -5,12 +5,12 @@
 ###########################################
 # Variables and Printing
 
-print()
-word = "Hi World"
-myNum = -5
-print(word)
-print(abs(myNum))
-print("")
+# print()
+# word = "Hi World"
+# myNum = -5
+# print(word)
+# print(abs(myNum))
+# print("")
 
 ###########################################
 # Take Input
@@ -176,17 +176,6 @@ print("")
 
 ###########################################
 # While Loops
-
-
-
-
-
-
-
-
-
-
-
 
 
 
