@@ -5,7 +5,7 @@ import PySimpleGUI as sg
 
 
 def translation_google(input):
-    toTranslate = values['-INPUT-']
+    toTranslate = input
     translator = Translator()
     result = translator.translate(toTranslate)
     print()
@@ -24,7 +24,7 @@ layout = [
     [sg.Button('Translate'), sg.Button('Exit')]
      ]
 
-window = sg.Window('Translator', layout)
+window = sg.Window('Translator', layout, location=(1000, 500))
 
 while True:
     event, values = window.read()
